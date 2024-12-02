@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Разделы */
+
+.main {
+  display: flex;
+  height: 900px;
+}
+
+/* Сайдбар */
+
+.sidebar {
+  width: 30%;
+  background-color: #004279;
+}
+
+.img_resume {
+  margin: 20px 5%;
+  width: 90%;
+  height: auto;
+  border-radius: 10%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.section {
+  background-color: #00315c;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 5%;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.contacts {
+  margin: 20px 5%;
+  color: whitesmoke;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.languages {
+  margin: 20px 5%;
+  color: whitesmoke;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lang_string_style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 35px;
+  overflow: hidden;
+}
+
+.skills {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+}
+
+.circles {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.circle_a {
+  height: 20px;
+  width: 20px;
+  background: rgba(245, 245, 245, 0.67);
+  opacity: 0.67;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.circle_b {
+  height: 20px;
+  width: 20px;
+  background: black;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* Контент */
+
+.content {
+  width: 70%;
+  background-color: whitesmoke;
+  padding: 10px 30px;
+}
+
+.title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #00315c;
+  text-align: center;
+}
+
+.subtitle {
+  color: #00315c;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.subtitle_info {
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 35px;
+  color: #004279;
+}
+
+.content_section {
+  color: #00315c;
+}
+
+hr {
+  border: 1px solid #00315c;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* Футер */
+
+footer {
+  background-color: #004279;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border-top: 1px solid #00315c;
+}
